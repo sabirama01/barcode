@@ -7,10 +7,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>BARCODE / QRCODE GENERATOR</h1>
-    </header>
-    
+    <header id="header"></header>
+    <h1>BARCODE / QRCODE GENERATOR</h1>
     <div class="container m4 main">
       <img id="barcode" />
       <div id="contol">
@@ -20,12 +18,14 @@
       </div>
     </div>
 
-    <iframe src="qrcode.html" frameborder="0"></iframe>
+    <iframe src="assets/components/qrcode/qrcode.html" frameborder="0"></iframe>
 
     <footer>
       <p>Generates CODE128 barcode type. API from BarcodeAPI.org.</p>
       <span>Barcode &copy; 2023, All Rights Reserved.</span>
     </footer>
-    <script src="index.js"></script>
+   
   </body>
+  <script src="index.js"></script>
+  <script src="assets/components/header/header.js"></script>
 </html>

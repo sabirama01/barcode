@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -14,6 +15,11 @@ body {
   align-items: center;
   margin: auto;
   background: lightcyan;
+}
+
+#header {
+  align-self: flex-end;
+  padding: 20px;
 }
 
 .container {
@@ -49,9 +55,7 @@ body {
   margin: 12px;
 }
 
-header {
-  padding: 20px;
-}
+
 
 footer {
   padding: 20px;

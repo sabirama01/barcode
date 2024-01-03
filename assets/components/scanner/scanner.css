@@ -1,0 +1,28 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+}
+body {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   height: 100svh;
+   max-width: 1200px;
+   margin: auto;
+  align-items: center;
+}
+
+#header {
+   align-self: flex-end;
+   padding: 20px;
+ }
+
+input[type="file"] {
+   display: none;
+}
+
+button {
+   max-width: 300px;
+}
