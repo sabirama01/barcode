@@ -8,16 +8,20 @@
   </head>
   <body>
     <header>
-      <h1>BARCODE GENERATOR</h1>
+      <h1>BARCODE / QRCODE GENERATOR</h1>
     </header>
+    
     <div class="container m4 main">
       <img id="barcode" />
       <div id="contol">
-        <input type="text" id="code-to-generate" />
-        <button onclick="generateBarcode()" id="generate-button">Generate barcode</button>
+        <input type="text" placeholder="Input to generate Barcode" id="code-to-generate" />
+        <button onclick="generateBarcode()" id="generate-button">Generate Barcode</button>
         <button onclick="clearInput()">Clear</button>
       </div>
     </div>
+
+    <iframe src="qrcode.html" frameborder="0"></iframe>
+
     <footer>
       <p>Generates CODE128 barcode type. API from BarcodeAPI.org.</p>
       <span>Barcode &copy; 2023, All Rights Reserved.</span>
