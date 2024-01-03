@@ -7,7 +7,7 @@ function generateBarcode() {
       const barcodeSource = `https://barcodeapi.org/api/code128/${generate.value}`;
       barcode.src = barcodeSource;
     } else {
-      barcode.src = "/assets/images/no_input.png";
+      barcode.src = "assets/images/no_input.png";
     }
   } else {
     document.querySelector(".main").innerHTML = "<h1>ERROR 404. NO INTERNET ACCESS</h1>";
